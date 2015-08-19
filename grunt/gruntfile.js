@@ -141,12 +141,12 @@ module.exports = function(grunt) {
 	 * Default task
 	 */
 	grunt.registerTask( 'default', [
-		'sass:dist',
+//		'sass:dist',
 		'autoprefixer',
 		'cssmin',
 		'jshint',
 		'uglify',
-		'sass:demo',
+//		'sass:demo',
 		'notify:dist'
 	] );
 
